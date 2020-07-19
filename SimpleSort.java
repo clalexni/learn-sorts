@@ -26,7 +26,7 @@ public final class SimpleSort{  //why need final here to acess from other class?
             }
             arr[j] = temp;
         }
-        System.out.println("Numer of swaps using insertion sort: " + count);
+        //System.out.println("Numer of swaps using insertion sort: " + count);
     }
 
     /**
@@ -51,7 +51,7 @@ public final class SimpleSort{  //why need final here to acess from other class?
                 arr[j] = temp;
             }
         } 
-        System.out.println("Numer of swaps using shellsort: " + count);
+        //System.out.println("Numer of swaps using shellsort: " + count);
     }
 
     /**

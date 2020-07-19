@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class QuickSort{
 
+    
     public static <AnyType extends Comparable<? super AnyType>> void 
         quickSort(AnyType[] array)
     {
@@ -28,8 +29,8 @@ public class QuickSort{
 
                 if (i>=j){ break;}
                 
-                System.out.println("i: " + i + ", j: " + j + ", pivot: " + pivot);
-                System.out.println(Arrays.toString(array));
+                //System.out.println("i: " + i + ", j: " + j + ", pivot: " + pivot);
+                //System.out.println(Arrays.toString(array));
                 swapIndex(array, i, j);
             }
 
