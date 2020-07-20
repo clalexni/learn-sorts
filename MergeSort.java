@@ -7,6 +7,7 @@ public class MergeSort{
         void mergeSort(AnyType [] array)
     {
         // sqaure can implement the comparable from its super class of shape?
+        // inherent from comparable from super class
          // uncheck warning?
          //AnyType [] temp = new AnyType [array.length];
          AnyType [] temp = (AnyType[]) new Comparable[array.length];
