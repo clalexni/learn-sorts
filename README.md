@@ -3,15 +3,16 @@ Try to learn sorting algorithms by coding them
 
 So far...
 
-- SimpleSort: should include all O(n^2) sorts
+- SimpleSort: (should include all O(n^2) sorts)
   - insertionSort
   - shellsort
   
 - MergeSort
 - RadixSort
+- QuickSort
 
 Todo:
 - HeapSort
-- quickSort
+- <strike>quickSort</strike>
 - quickSelect
 - bucketSort
