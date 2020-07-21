@@ -21,11 +21,11 @@ public class QuickSort{
             int j = right - 1;
             
             while(i<j){
-                //while (array[i].compareTo(pivot) < 0){ i++;}
-                //while (array[j].compareTo(pivot) > 0){ j--;}
+                while (array[i].compareTo(pivot) < 0){ i++;}
+                while (array[j].compareTo(pivot) > 0){ j--;}
 
-                while (array[++i].compareTo(pivot) < 0){}
-                while (array[--j].compareTo(pivot) > 0){}
+                //while (array[++i].compareTo(pivot) < 0){}
+                //while (array[--j].compareTo(pivot) > 0){}
 
                 if (i>=j){ break;}
                 
